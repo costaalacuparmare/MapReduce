@@ -1,6 +1,6 @@
 build:
-		g++ main.cpp queue.cpp mapper.cpp reducer.cpp header.h -o tema1 -lpthread
+		g++ main.cpp queue.cpp mapper.cpp reducer.cpp header.h -o mapreduce -lpthread
 run:
-		./tema1
+		./mapreduce
 clean:
-		rm tema1
+		rm mapreduce
